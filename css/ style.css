@@ -1,2 +1,29 @@
 
     img {width: 500px;}
+   
+  
+  body {
+  background-color: rgba(12, 83, 47, 0.486);
+  }
+   h2 {
+      text-align: left;
+      padding: 30px;
+      font-size:xx-large;
+  }
+  main {
+    margin-bottom: 30px;
+    margin-top: 30px;
+      padding: 30px;
+      color: rgb(98, 29, 29)
+      ;font-size:x-large
+  }
+ h1 {
+  text-align: left;
+  padding: 30px;
+  font-size:xx-large;
+ }
+ p{
+  text-align: left;
+  padding: 30px;
+  font-size:xx-large;
+ }
