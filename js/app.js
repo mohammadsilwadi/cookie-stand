@@ -2,7 +2,7 @@
 /* eslint-disable no-undef */
 
 'use strict';
-
+let parentElement = document.getElementById('salesData');
 let operatingHours=['6 am', '7 am', '8 am', '9 am', '10 am', '11 am', '12 pm', '1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm', '7 pm', '8 pm'];
 let locationDetailsArray=[];
 function LocationDetails(locationName, minCustomersHourly, avgPerCustHourly, maxCustomersHourly, cookiesSalesHourly, randomCustomersHourly, totalSalesDaily){
@@ -124,7 +124,7 @@ function fillWithCookies(){
   }
 }
 
-let report= document.getElementById('displayLocations');
+let report= document.getElementById('salesData');
 for (let i=0; i<locationDetailsArray.length; i++){
   locationDetailsArray[i].calculateRandomCustomersHourly();
   locationDetailsArray[i].calculateCookiesSalesHourly();
