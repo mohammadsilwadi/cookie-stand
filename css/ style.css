@@ -27,3 +27,7 @@
   padding: 30px;
   font-size:xx-large;
  }
+ #rightImage, #leftImage{
+  height: 20%;
+  width: 20%;
+}
