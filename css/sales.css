@@ -1,0 +1,40 @@
+body{
+  background-color: rgba(12, 83, 47, 0.486);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  gap: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width:300px;
+}
+table, th, td{
+border: solid 2px rgb(170, 39, 39);
+border-spacing: 5px
+}
+th, td{
+  background-color:rgba(14, 14, 7, 0);
+}
+
+table{
+  width: 85%;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(10, 10, 10);
+    color: rgb(165, 19, 19);
+}
