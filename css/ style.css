@@ -14,13 +14,14 @@ body {
   width: 960px;
   margin: 0 auto;
 }
-
+main  :nth-child(1){
+  display: flex;
+}
 img {
   width: 100%;
 }
 h2{font-size: larger;
-  text-align: justify;
-  margin: 10 px;
+  margin-right: 20px;
 }
 h1{font-size: x-large;
 }header {
@@ -37,8 +38,8 @@ main img {
 }
 
 p {
-  line-height: 1.5;
   text-align: justify;
+  margin-right: 20px;  
 }
 header a {
   text-decoration: none;
@@ -51,6 +52,6 @@ footer {
   display: flex;
     align-items: center;
     justify-content: center;
-    background: #222;
+    background: rgba(165, 141, 141, 0.685);
     color: #fff;
 }

@@ -35,6 +35,6 @@ footer {
   display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(10, 10, 10);
+    background: rgba(165, 141, 141, 0.685);
     color: rgb(165, 19, 19);
 }
