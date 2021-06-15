@@ -19,7 +19,7 @@ header img {
   width:300px;
 }
 table, th, td{
-border: solid 2px rgb(170, 39, 39);
+border: solid 2px rgba(170, 39, 39, 0.445);
 border-spacing: 5px
 }
 th, td{
