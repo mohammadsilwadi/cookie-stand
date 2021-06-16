@@ -52,6 +52,6 @@ footer {
   display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(165, 141, 141, 0.685);
+    background: #3c7e929a;
     color: #fff;
 }
