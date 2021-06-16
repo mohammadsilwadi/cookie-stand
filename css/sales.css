@@ -35,6 +35,21 @@ footer {
   display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(165, 141, 141, 0.685);
-    color: rgb(165, 19, 19);
+    background: #3c7e929a;
+    color: #fff;
+}
+fieldset {
+  display: flex;
+  background-color: #3c7e929a;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  font-size: larger;
+}
+
+input {
+  margin: 5px;
 }
