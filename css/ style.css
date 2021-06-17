@@ -22,12 +22,14 @@ img {
 }
 h2{font-size: larger;
   margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 h1{font-size: x-large;
 }header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
 }
 
 header img {
@@ -40,15 +42,19 @@ main img {
 p {
   text-align: justify;
   margin-right: 20px;  
+  font-family: 'Roboto', sans-serif;
 }
 header a {
   text-decoration: none;
   text-transform: uppercase;
   color: #222;
   padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
     align-items: center;
     justify-content: center;

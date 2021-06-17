@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
 }
 header {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,10 +21,14 @@ header img {
   width:300px;
 }
 table, th, td{
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
 border: solid 2px rgba(170, 39, 39, 0.445);
 border-spacing: 5px
 }
 th, td{
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color:rgba(14, 14, 7, 0);
 }
 
@@ -32,6 +38,8 @@ table{
 }
 
 footer {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
     align-items: center;
     justify-content: center;
@@ -39,11 +47,14 @@ footer {
     color: #fff;
 }
 fieldset {
+
   display: flex;
   background-color: #3c7e929a;
 }
 
 legend {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: gray;
   color: white;
   padding: 5px 10px;
@@ -51,5 +62,7 @@ legend {
 }
 
 input {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 5px;
 }
